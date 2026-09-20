@@ -7,7 +7,7 @@ import SpotifyCard from "../components/ui/spotify-card"
 const TYPING_SPEED   = 100
 const ERASING_SPEED  = 50
 const PAUSE_DURATION = 2000
-const WORDS = ["IT Edu Student", "Tech Enthusiast", "Junior Developer"]
+const WORDS = ["Management Student  Finance", "Investment Enthusiast"]
 
 const SOCIAL_LINKS = [
   { icon: Github,    link: "https://github.com/ekawahyu-project",                                                                                       label: "GitHub" },

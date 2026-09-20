@@ -5,7 +5,7 @@ import { BorderBeamPanel } from "../components/ui/border-beam-panel"
 import { supabase } from "../supabase"
 
 const Header = memo(() => (
-  <div className="text-center lg:mb-16 mb-10 px-[5%]">
+  <div className="text-center lg:mb-16 mb-4 px-[5%]">
     <div data-aos="fade-up" data-aos-duration="600">
       <h2
         className="section-label mx-auto"
@@ -81,13 +81,13 @@ const ProfileImage = memo(() => {
           style={{ WebkitMaskImage: "linear-gradient(to bottom, black 75%, transparent 100%)", maskImage: "linear-gradient(to bottom, black 75%, transparent 100%)" }}
         >
           <div
-            className="w-[350px] h-[350px] sm:w-[500px] sm:h-[500px] lg:w-[700px] lg:h-[700px] cursor-none relative"
+            className="w-[350px] h-[350px] sm:w-[500px] sm:h-[500px] lg:w-[560px] lg:h-[560px] xl:w-[640px] xl:h-[640px] cursor-none relative"
             onMouseMove={handleMouseMove}
             onMouseEnter={() => setIsHoveringImg(true)}
             onMouseLeave={handleMouseLeave}
           >
             <img
-              src="/Photo.png"
+              src="/PhotoWahyu.png"
               alt="Profile"
               className="absolute inset-0 w-full h-full object-contain object-bottom grayscale-[20%] group-hover:grayscale-0 transition-all duration-700 pointer-events-none"
               loading="lazy"
@@ -257,7 +257,7 @@ const AboutPage = () => {
     >
       <Header />
 
-      <div className="w-full mx-auto pt-8 sm:pt-12 relative">
+      <div className="w-full mx-auto pt-0 relative">
         {/* ── Desktop Layout (lg+) ── */}
         <div className="hidden lg:grid lg:grid-cols-[2.5fr_3fr_2fr] gap-6 items-center">
 
@@ -266,7 +266,8 @@ const AboutPage = () => {
             <h3 className="text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight leading-tight"
               style={{ fontFamily: "var(--font-display)" }}>
               <span className="grad-vi block">Hi, I&apos;m</span>
-              <span className="block text-white mt-1 whitespace-nowrap">Wahyu Syahputra</span>
+              <span className="block text-white mt-1 whitespace-nowrap">Wahyu</span>
+              <span className="block text-white whitespace-nowrap">Syahputra</span>
               <span className="block text-white whitespace-nowrap">Akmal</span>
             </h3>
             <div className="mt-8">
@@ -280,16 +281,16 @@ const AboutPage = () => {
           </div>
 
           {/* Center: Image */}
-          <div className="min-w-0 flex justify-center items-end">
+          <div className="min-w-0 flex justify-center items-center">
             <ProfileImage />
           </div>
 
           {/* Right: Description + View Projects */}
           <div className="min-w-0 space-y-6 text-left" data-aos="fade-left" data-aos-duration="1000">
             <div className="text-base sm:text-lg leading-relaxed" style={{ color: "var(--col-muted)" }}>
-              <p>Sebagai mahasiswa Fakultas Ilmu Komputer Universitas Brawijaya,
-                Aku berfokus pada pengembangan teknologi yang tidak hanya fungsional,
-                tetapi juga menghadirkan pengalaman digital yang menarik dan berdampak.</p>
+              <p>Mahasiswa Program Studi Manajemen, Fakultas Ekonomi dan Ilmu Sosial, UIN Suska Riau, dengan fokus dan 
+                ketertarikan pada bidang Finance & Investment. Memiliki minat dalam manajemen keuangan, investasi, 
+                analisis pasar, trading, dan manajemen risiko.</p>
             </div>
             <div className="mt-8">
               <a href="#Portofolio">
@@ -304,7 +305,7 @@ const AboutPage = () => {
 
         {/* ── Mobile Layout (below lg) ── */}
         <div className="flex flex-col items-start gap-6 lg:hidden">
-          {/* Photo */}
+          {/* PhotoWahyu */}
           <div className="flex justify-center w-full">
             <ProfileImage />
           </div>
@@ -357,23 +358,23 @@ const AboutPage = () => {
               {/* Card 1 */}
               <div className="rounded-xl px-6 py-5 flex items-center gap-4 bg-slate-800/50 hover:bg-slate-700/50 border border-white/5 transition-colors duration-200">
                 <div className="w-14 h-14 flex-shrink-0 overflow-hidden rounded-2xl">
-                  <img src="/ub.png" alt="Logo" className="w-full h-full object-contain" />
+                  <img src="/Logo_UIN_Suska_Riau.png" alt="Logo_UIN_Suska_Riau" className="w-full h-full object-contain" />
                 </div>
                 <div>
-                  <p className="text-base font-semibold text-white leading-snug">Universitas Brawijaya</p>
-                  <p className="text-sm mt-0.5" style={{ color: "var(--col-muted)" }}>IT Edu | Faculty of Computer Science</p>
-                  <p className="text-sm mt-1 font-medium" style={{ color: "#93c5fd" }}>2025 – Present</p>
+                  <p className="text-base font-semibold text-white leading-snug">UIN SUSKA RIAU</p>
+                  <p className="text-sm mt-0.5" style={{ color: "var(--col-muted)" }}>Manajemen | Fakultas Ekonomi Dan Ilmu Sosial</p>
+                  <p className="text-sm mt-1 font-medium" style={{ color: "#93c5fd" }}>2024 – Present</p>
                 </div>
               </div>
 
               {/* Card 2 */}
               <div className="rounded-xl px-6 py-5 flex items-center gap-4 bg-slate-800/50 hover:bg-slate-700/50 border border-white/5 transition-colors duration-200">
                 <div className="w-14 h-14 flex-shrink-0 overflow-hidden rounded-2xl">
-                  <img src="/smkn.png" alt="Logo" className="w-full h-full object-contain" />
+                  <img src="/Logo_SMAMUHIBA.png" alt="Logo" className="w-full h-full object-contain" />
                 </div>
                 <div>
-                  <p className="text-base font-semibold text-white leading-snug">SMKN WINONGAN</p>
-                  <p className="text-sm mt-0.5" style={{ color: "var(--col-muted)" }}>Teknik Komputer dan Jaringan</p>
+                  <p className="text-base font-semibold text-white leading-snug">SMA Muhammadiyah Bangkinang Kota</p>
+                  <p className="text-sm mt-0.5" style={{ color: "var(--col-muted)" }}>Ilmu Pengetahuan Sosial</p>
                   <p className="text-sm mt-1 font-medium" style={{ color: "#93c5fd" }}>2021 – 2024</p>
                 </div>
               </div>

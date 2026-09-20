@@ -22,7 +22,7 @@ export default function SpotifyCard({ className = "" }) {
         </h2>
         
         <p className="text-sm text-zinc-400 leading-relaxed mb-4">
-          A curated collection of tracks that keep me in the zone and inspired while coding.
+          A curated playlist that keeps me focused and inspired while studying and analyzing the market.
         </p>
       </div>
 
