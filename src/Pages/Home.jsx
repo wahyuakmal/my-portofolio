@@ -114,25 +114,25 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Eka Wahyu Maulidan | Portofolio</title>
-        <meta name="description" content="Website resmi Eka Wahyu Maulidan. Aku berfokus pada pengembangan teknologi yang tidak hanya fungsional, tetapi juga menghadirkan pengalaman digital yang menarik dan berdampak." />
+        <title>Wahyu Syahputra Akmal | Portofolio</title>
+        <meta name="description" content="Website resmi Wahyu Syahputra Akmal. Mahasiswa Manajemen yang tertarik pada finance, investment, dan trading, serta teknologi." />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://ekawahyu-portofolio-eka-wahyu-s-projects.vercel.app" />
-        <meta property="og:title"       content="Eka Wahyu Maulidan | Portofolio" />
-        <meta property="og:description" content="Website resmi dan portofolio Eka Wahyu Maulidan." />
-        <meta property="og:url"         content="https://ekawahyu-portofolio-eka-wahyu-s-projects.vercel.app" />
+        <link rel="canonical" href="https://myportofolio-wahyu-syahputra-akmal.vercel.app" />
+        <meta property="og:title"       content="Wahyu Syahputra Akmal | Portofolio" />
+        <meta property="og:description" content="Website resmi dan portofolio Wahyu Syahputra Akmal." />
+        <meta property="og:url"         content="https://myportofolio-wahyu-syahputra-akmal.vercel.app" />
         <meta property="og:type"        content="website" />
         <script type="application/ld+json">{`
           {
             "@context": "https://schema.org",
             "@type": "Person",
-            "name": "Eka Wahyu Maulidan",
-            "jobTitle": "Junior Developer",
-            "url": "https://ekawahyu-portofolio-eka-wahyu-s-projects.vercel.app",
+            "name": "Wahyu Syahputra Akmal",
+            "jobTitle": "Mahasiswa Manajemen",
+            "url": "https://myportofolio-wahyu-syahputra-akmal.vercel.app",
             "sameAs": [
-              "https://github.com/ekawahyu-project",
-              "https://www.linkedin.com/in/eka-wahyu-maulidan-484021315",
-              "https://www.instagram.com/eka.wahyu.m"
+              "https://github.com/wahyuakmal",
+              "https://www.linkedin.com/in/Wahyu-Syahputra-Akmal-484021315",
+              "https://www.instagram.com/wahyusyahputraakmal"
             ]
           }
         `}</script>
