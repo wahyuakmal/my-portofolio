@@ -10,9 +10,9 @@ const PAUSE_DURATION = 2000
 const WORDS = ["Management Student  Finance", "Investment Enthusiast"]
 
 const SOCIAL_LINKS = [
-  { icon: Github,    link: "https://github.com/ekawahyu-project",                                                                                       label: "GitHub" },
+  { icon: Github,    link: "https://github.com/wahyuakmal",                                                                                       label: "GitHub" },
   { icon: Linkedin,  link: "https://www.linkedin.com/in/eka-wahyu-maulidan-484021315?utm_source=share_via&utm_content=profile",                          label: "LinkedIn" },
-  { icon: Instagram, link: "https://www.instagram.com/eka.wahyu.m",                                                                                     label: "Instagram" },
+  { icon: Instagram, link: "https://www.instagram.com/wahyusyahputraakmal",                                                                                     label: "Instagram" },
 ]
 
 /* ── Sub-components ── */
