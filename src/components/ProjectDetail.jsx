@@ -76,11 +76,11 @@ const ProjectDetails = () => {
   return (
     <>
       <Helmet>
-        <title>{project.title} — Eka Wahyu Maulidan</title>
-        <meta name="description" content={project.description ? project.description.slice(0, 155) : `Project ${project.title} oleh Eka Wahyu Maulidan.`} />
+        <title>{project.title} — Wahyu Syahputra Akmal</title>
+        <meta name="description" content={project.description ? project.description.slice(0, 155) : `Project ${project.title} oleh Wahyu Syahputra Akmal.`} />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href={projectUrl} />
-        <meta property="og:title" content={`${project.title} — Eka Wahyu Maulidan`} />
+        <meta property="og:title" content={`${project.title} — Wahyu Syahputra Akmal`} />
         <meta property="og:description" content={project.description?.slice(0, 155)} />
         <meta property="og:url" content={projectUrl} />
         <meta property="og:type" content="website" />
